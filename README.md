@@ -13,6 +13,10 @@ git clone https://github.com/Affaaf/CG-assignment.git
 python3 -m venv env
 source env/bin/activate
 ```
+### Install Requirements.txt
+```shell
+pip install -r requirements.txt
+```
 ### Database Migrations
 ```shell
 python manage.py makemigrations
@@ -22,6 +26,7 @@ python manage.py migrate
 ```shell
 python manage.py runserver
 ```
+The server will start on port 8000 on address http://127.0.0.1:8000. 
 
 ## Docker Envoirment
 Build Docker Images and Run server
