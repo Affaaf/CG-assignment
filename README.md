@@ -37,3 +37,9 @@ Open Docker Terminal
 ```shell
 sudo docker-compose exec web bash
 ```
+
+## Pytest
+```shell
+pytest -v
+```
+For running pytests
